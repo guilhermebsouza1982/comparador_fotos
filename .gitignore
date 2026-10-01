@@ -1,0 +1,24 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller builds & standalone executables
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# Local AI runtime & caches
+ai_runtime/
+cache/
+*.log
+comparador_erros.log
+
+# Local app configuration
+config_app.json
+
+# Agent & IDE workspace files
+.agent/
+.vscode/
+.idea/

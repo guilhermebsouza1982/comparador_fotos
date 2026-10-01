@@ -1,0 +1,6 @@
+# GPU: NVIDIA GTX 1650 / Windows
+# PyTorch CUDA wheels officially provide CUDA 12.6 builds for Windows.
+# CUDA 12.6 is appropriate for this older Turing GPU.
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0

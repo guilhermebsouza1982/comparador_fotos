@@ -1,0 +1,7 @@
+Pillow>=10.0
+numpy>=1.26
+ImageHash>=4.3
+open_clip_torch>=2.24
+scikit-learn>=1.4
+send2trash>=1.8
+pillow-heif>=0.16
