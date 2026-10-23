@@ -1138,7 +1138,7 @@ class MainWindow:
                 return
             if os.name == "nt":
                 if p.is_file():
-                    subprocess.Popen(f'explorer /select,"{p}"')
+                    subprocess.Popen(["explorer", "/select,", str(p)])
                 else:
                     os.startfile(p)
             elif sys.platform == "darwin":
